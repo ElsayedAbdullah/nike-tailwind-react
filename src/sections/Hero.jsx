@@ -22,12 +22,13 @@ const Hero = () => {
         <p className="font-montserrat text-coral-red sm:text-xl ">
           Our Summer collections
         </p>
-        <h1 className="mt-5 font-palanquin text-4xl font-bold dark:text-slate-200 sm:text-8xl md:mt-10">
-          <span className="relative z-10 inline-block  dark:bg-transparent lg:pr-10 xl:whitespace-nowrap xl:bg-white">
+        <h1 className="mt-5 font-palanquin text-4xl font-bold dark:text-slate-200 sm:text-8xl md:mt-10 xl:leading-[100px]">
+          <span className="relative z-10 dark:bg-transparent lg:pr-10 xl:whitespace-nowrap xl:bg-white">
             The New Arrival
           </span>{" "}
           <br />
-          <span className="inline-block text-coral-red">Nike</span> Shoes
+          <span className="inline-block text-coral-red xl:mt-4">Nike</span>{" "}
+          Shoes
         </h1>
         <p className="text-md mb-8 mt-6 font-montserrat leading-8 text-slate-gray dark:text-slate-400 sm:max-w-sm sm:text-lg">
           Discover stylish Nike arrivals, quality comfort, and innovation for
